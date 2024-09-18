@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: 0;
+    font-size: 55px;
+}
+hr{
+    border-color: white;
+    margin: 0;
+}
+/*-- header--*/
+header{
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+header a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+.center-head{
+    margin-left: 20px;
+}
+.center-head a{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+nav{
+    filter: brightness(0)invert(1);
+}
+
+.img_logo{
+   width: 120px;
+   filter: brightness(0)invert(1);
+   
+}
+nav img{
+    width: 20px;
+    height: 20px;
+}
+.buttons{
+    position: absolute;
+    bottom: 20px;
+
+}
+button{
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button1{
+    background-color: #3e6ae1;
+    color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.button2{
+    padding: 10px;
+    width: 250px;
+    color: black;
+    background-color: #fff;
+}
+.button{
+    margin-left: 490px;
+    margin-top: 500px;
+
+}
+.underline{
+    width: 233px;
+    position: relative;
+    left: 650px;
+}
+/*--Page1--*/
+.body_container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/background_1.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+}
+.Center-content h1{
+    padding-left: 15px;  
+}
+.Center-content{
+    color: white;
+    font-size: 20px;
+    position:relative;
+    top: 80px;
+    text-align: center;
+
+}
+.Center-content h3{
+    margin: 0;
+    padding-top: 8px;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+
+}
+.Center-content p{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+.buttons{
+    position: absolute;
+    bottom: 20px;
+
+}
+/*--Page2*/
+.body_container2{
+    background-image: url(Images/background_2.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+/*--Page3--*/
+.body_container3{
+    background-image: url(Images/background_3.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/*--Page4--*/
+.body_container4{
+    background-image: url(Images/background_4.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.Center-content3{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+/*--Page5--*/
+.body_container5{
+    background-image: url(Images/background_5.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.body_container5 button{
+    background-color: #111;
+    color: #a2a3a5;
+}
+.body_container5 img{
+    width: 380px;
+    
+}
+/*--Page6--*/
+.body_container6{
+    background-image: url(Images/background_6.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.body_container6 hr{
+    width: 410px;
+    position: relative;
+    left: 555px;
+}
+/*--Page7--*/
+.body_container7{
+    background-image: url(Images/background_7.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+/*--Page8--*/
+.body_container8{
+    background-image: url(Images/background_8.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+/*--Page9--*/
+.body_container9{
+    background-image: url(Images/background_9.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.body_container9 .button{
+    margin-left: 600px;
+    margin-top: 580px;
+}
+/*--Page10--*/
+.body_container10{
+    background-color: black;
+    height: 72vh;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+}
+.body_container10 p{
+    font-size: 12px;
+    color: #d0d1d2;
+    
+}
+.footer{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 1.6;
+    font-weight: 500;
+
+}
+sup{
+    font-size: 6px;
+}
+.footer a{
+    color: #d0d1d2;
+}
+.last_section{
+    color: #d0d1d2;
+    list-style: none;
+
+}
+.copy_right{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.copy_right div{
+    margin-right: 20px;
+   font-size: 12px  
+}
+.copy_right div a{
+    text-decoration: none;
+    color: #d0d1d2;
+}
+
+
+
